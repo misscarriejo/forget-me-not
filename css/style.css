@@ -1,12 +1,29 @@
 html {
 }
-/*
+
 body {
-	font-family: 'Yantramanav', sans-serif;
+	font-family: ArcherPro-Medium, sans-serif;
 	font-weight:300;
 	letter-spacing:.03rem;
 	font-size:1.6rem;
+
+
 }
+
+@font-face {
+    font-family: Archer;
+    src: url(fonts/ArcherPro-Medium.otf);
+}
+
+@font-face {
+    font-family: Archer;
+    src: url(fonts/ArcherPro-Bold_0.otf);
+    font-weight:bold;
+}
+
+
+
+/*
 
 h1 {
 	font-family: 'Rokkitt', serif;
@@ -128,14 +145,13 @@ h6{
 
 /* Nav! */
 
-/*
+
 .navbar {
-	font-family: 'Rokkitt', serif;
 	font-size:1.85rem;
 	min-height: 70px;
 }
 
-/*.collapsed {
+.collapsed {
 	margin-top:18px;
 }
 
@@ -145,7 +161,7 @@ h6{
 
 .collapsing {
 	margin-top:18px;
-} *//*
+} 
 
 
 .navbar-header {
@@ -155,7 +171,12 @@ h6{
 .navbar-toggle {
 	margin-top:18px;
 }
-*/
+
+a.current {
+	font-weight:bold;
+	text-decoration: underline;
+}
+
 
 /* Nav! */
 
