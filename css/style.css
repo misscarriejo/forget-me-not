@@ -6,6 +6,7 @@ body {
 	font-weight:300;
 	letter-spacing:.03rem;
 	font-size:1.6rem;
+	background-color: #F5EFE7;
 
 
 }
@@ -145,15 +146,29 @@ h6{
 
 /* Nav! */
 
-.nav{
-	color:white;
+#main-nav {
+	width:100%;
+	margin: auto;
+	border:3px solid green;
+	
 }
+
+#main-nav ul{
+	display:flex;
+	justify-content: left;
+}
+
+#main-nav li{
+	padding:.8rem;
+}
+
 
 .navbar {
 	font-size:1.5rem;
 	min-height: 70px;
 	background-color: #3B3838;
 	color:#F5EFE7;
+
 }
 
 .collapsed {
@@ -182,6 +197,9 @@ a.current {
 	text-decoration: underline;
 }
 
+.navbar img {
+	margin-right:.6rem;	
+}
 
 
 
@@ -251,7 +269,7 @@ a.current {
 
 /* End footer! */
 
-/* 
+
 
 @media (min-width: 768px) {
 
@@ -269,7 +287,7 @@ a.current {
 
 .navbar ul li a {
 	height: 70px;
-	padding-top: 25px;
+	padding-top: 17px;
 }
 
 }
@@ -281,9 +299,9 @@ a.current {
 	padding-left:0;
 }
 }
-
+ /*
 .color-block {
-	background-color: #FFCD09;
+	background-color: ##F5EFE7;
 }
 
 */
