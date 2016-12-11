@@ -145,22 +145,27 @@ h6{
 
 /* Nav! */
 
+.nav{
+	color:white;
+}
 
 .navbar {
-	font-size:1.85rem;
+	font-size:1.5rem;
 	min-height: 70px;
+	background-color: #3B3838;
+	color:#F5EFE7;
 }
 
 .collapsed {
-	margin-top:18px;
+	margin-top:20px;
 }
 
 .in {
-	margin-top:18px;
+	margin-top:20px;
 }
 
 .collapsing {
-	margin-top:18px;
+	margin-top:20px;
 } 
 
 
@@ -176,6 +181,8 @@ a.current {
 	font-weight:bold;
 	text-decoration: underline;
 }
+
+
 
 
 /* Nav! */
