@@ -20,6 +20,12 @@ body {
     font-weight:bold;
 }
 
+@font-face {
+	font-family:Archer;
+	src: url(ArcherPro-MediumIta.otf);
+	font-style:oblique;
+}
+
 
 
 /*
@@ -211,6 +217,16 @@ a.current {
 .navbar-default .navbar-nav > li > a:focus {
   color: #7F9155;
   background-color: transparent;
+}
+
+.navbar-link{
+	padding-top:5px;
+}
+
+.navbar-link a {
+	color:#F5EFE7;
+	font-size:1.3rem;
+	font-weight:;
 }
 
 
