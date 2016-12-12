@@ -7,8 +7,6 @@ body {
 	letter-spacing:.03rem;
 	font-size:1.6rem;
 	background-color: #F5EFE7;
-
-
 }
 
 @font-face {
@@ -201,6 +199,19 @@ a.current {
 	margin-right:.6rem;	
 }
 
+
+.navbar-default .navbar-text {
+  color:#F5EFE7;
+}
+.navbar-default .navbar-nav > li > a {
+  color:#F5EFE7;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7F9155;
+  background-color: transparent;
+}
 
 
 /* Nav! */
