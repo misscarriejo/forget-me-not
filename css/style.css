@@ -159,11 +159,13 @@ h6{
 }
 #main-nav ul{
 	text-align:center;
+	padding-top:.8rem;
 	
 }
 
 #main-nav li{
-	padding:.8rem;
+	padding-left:.8rem;
+	padding-right:.8rem;
 }
 
 
@@ -174,19 +176,6 @@ h6{
 	color:#F5EFE7;
 
 }
-
-.collapsed {
-	margin-top:20px;
-}
-
-.in {
-	margin-top:20px;
-}
-
-.collapsing {
-	margin-top:20px;
-} 
-
 
 .navbar-header {
 	height:70px;
@@ -219,14 +208,20 @@ a.current {
   background-color: transparent;
 }
 
+
+#navbar {
+	margin-bottom:1rem;
+}
+
 .navbar-link{
 	padding-top:5px;
+	text-align:center;
 }
+
 
 .navbar-link a {
 	color:#F5EFE7;
 	font-size:1.3rem;
-	font-weight:;
 }
 
 
