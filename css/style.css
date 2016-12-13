@@ -26,7 +26,9 @@ body {
 	font-style:oblique;
 }
 
-
+.push-top{
+	margin-top:10rem;
+}
 
 /*
 
@@ -55,9 +57,7 @@ h6{
 	font-size:1.8rem;
 }
 
-.push-top{
-	margin-top:7rem;
-}
+
 
 .push-bottom{
 	margin-bottom:30px;
@@ -151,15 +151,15 @@ h6{
 /* Nav! */
 
 #main-nav {
-	width:100%;
-	margin: auto;
-	border:3px solid green;
+	margin-left: auto;
+	margin-right:auto;
+	width:90%;
+	
 	
 }
-
 #main-nav ul{
-	display:flex;
-	justify-content: left;
+	text-align:center;
+	
 }
 
 #main-nav li{
@@ -228,6 +228,13 @@ a.current {
 	font-size:1.3rem;
 	font-weight:;
 }
+
+
+@media (min-width: 992px) {
+	
+	
+} 
+
 
 
 /* Nav! */
