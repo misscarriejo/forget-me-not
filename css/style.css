@@ -36,6 +36,11 @@ h3{
 	margin-bottom:.4rem;
 }
 
+h4{
+	font-size:2rem;
+
+}
+
 h6{
 	font-size:1.3rem;
 	font-style:oblique;
@@ -325,7 +330,7 @@ body {
 }
 .carousel-inner {
   background: url("../img/onboard-bg.jpg") green center center no-repeat;
-  min-height: 900px;  
+  min-height: 800px;  
   width:100%;
 }
 
@@ -337,13 +342,37 @@ body {
   background: transparent;
 }
 
-.item h3,
-.item p {
-  color: #F5EFE7;
-  text-shadow: none;
+h4 {
+	padding-top: 25rem;
+	color: #F5EFE7;
+  	text-shadow: none;
+  	font-size:3rem;
+}
+
+.onb {
+	padding-top:2rem;
+	padding-bottom:2rem;
+	font-style:oblique;
+	text-shadow:none;
+	color:#F5EFE7;
+	font-size:2rem;
 }
 
 
+.btn-custom-onb {
+	background-color:transparent;
+	border-radius:0;
+	color:#F5EFE7;
+	font-size:1.6rem;
+	border:1;
+	border-color: #3B3838;
+	margin-top:1.2rem;
+}
+
+.btn-custom-onb:hover, .btn-custom-onb:focus, .btn-custom-onb:active {
+	background-color: #3B3838;
+	border-color:#F5EFE7;
+}
 
 /* Carousel */
 
