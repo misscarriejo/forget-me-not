@@ -319,6 +319,39 @@ a.current {
 }
 
 
+/* Carousel */
+body {
+  padding-top: 50px;
+}
+.carousel-inner {
+  background: url("img/onboard-bg.jpg") green center center no-repeat;
+  min-height: 900px;  
+  width:100%;
+}
+
+.carousel-caption {
+  position: initial;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: transparent;
+}
+
+.item h3,
+.item p {
+  color: #F5EFE7;
+  text-shadow: none;
+}
+
+
+
+/* Carousel */
+
+
+
+
+
+
 /* CHange breakpoint *
 @media (max-width: 992px) {
   .navbar-header {
