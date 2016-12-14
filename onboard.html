@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Forget Me Not" content="Forget Me Not helps you remember to water your plants.">
+    <link rel="icon" href="img/forget-me-not.ico">
+
+    <title>Forget Me Not</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  
+    <!-- jQuery CDN, called in before Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core JavaScrip -->
+    <script src="js/bootstrap.js"></script>
+
+   <link href="https://fonts.googleapis.com/css?family=Rokkitt:400,700|Yantramanav:300,500,700" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Forget Me Not Logo" width="74px"></a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <div id="main-nav">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><img src="img/icon-directory.png" width="20px">Directory</a></li>
+                <li><a href="#"><img src="img/icon-calendar.png" width="20px">Calendar</a></li>
+                <li><a href="#" class="current"><img src="img/icon-plants.png" width="20px">My Plants</a></li>
+                <li><a href="#"><img src="img/icon-trophies.png" width="20px">Trophies</a></li>
+                <li><a href="#"><img src="img/icon-discussion.png" width="20px">Discussion</a></li>
+              </ul>
+            </div>
+
+          <div class="navbar-link">
+            <p class="navbar-text navbar-right"><a>Settings</a> | <a>Sign Out</a></p>
+          </div>
+      
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <!-- Carousel ->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <div class="carousel-caption">
+        <h3>WE ARE SMART</h3>
+        <p>First Slide with your Great Features.</p>
+        <button class="btn btn-success btn-lg" role="button">Call to Action</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="carousel-caption">
+        <h3>WE ARE SMART</h3>
+        <p>Second Slide with your Great Features.</p>
+        <button class="btn btn-success btn-lg" role="button">Call to Action</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="carousel-caption">
+        <h3>WE ARE SMART</h3>
+        <p>Third Slide with your Great Features.</p>
+        <button class="btn btn-success btn-lg" role="button">Call to Action</button>
+      </div>
+    </div>
+
+  </div>
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <img class="img-circle img-responsive img-center" src="http://dummyimage.com/300x300/05cb86/ffffff" alt="">
+      <h2>Value Driver #1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem rerum laudantium recusandae ratione qui, suscipit reiciendis totam eum deleniti quas expedita perferendis distinctio, quod earum labore eaque ad quasi. In.</p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-circle img-responsive img-center" src="http://dummyimage.com/300x300/05cb86/ffffff" alt="">
+      <h2>Value Driver #2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempora quae sunt veniam alias quo magnam obcaecati magni maiores incidunt repellat rem, quisquam impedit vitae esse hic, excepturi ab eligendi.</p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-circle img-responsive img-center" src="http://dummyimage.com/300x300/05cb86/ffffff" alt="">
+      <h2>Value Driver #3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempora quae sunt veniam alias quo magnam obcaecati magni maiores incidunt repellat rem, quisquam impedit vitae esse hic, excepturi ab eligendi.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-sm-6">
+      <hr class="section-heading-spacer">
+      <div class="clearfix"></div>
+      <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+      <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+    </div>
+    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+      <img class="img-responsive" src="http://dummyimage.com/600x400/05cb86/ffffff&text=My+Product" alt="">
+    </div>
+  </div>
+
+</div>
+
+
+    <!-- Carousel ->
+
+
+
+
+
+
+
+    <!-- footer section -->
+<footer>
+    <div class="container">
+      <div class="row">
+         <div>
+          <div class="footer">
+           <h6 class="push-bottom">© Forget Me Not, 2016</h6>
+          </div>
+         </div><!--col-->
+      </div><!--row-->
+    </div> <!--container-->
+</footer>
+
+
+
+
+
+
+
+      <!--
+
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 color-block">
+        </div>
+      </div>
+    </div>
+
+
+<div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+
+
+          <h2>Testimonials</h2>
+          <p>"I've been seeing Dr. Ambo for like 15 years and he's awesome. Always very knowledgable, accurate and easy to talk to."</p>
+
+          <p>"I've been going to Dr. Ambo for a few years now. As strange as it seems to go to Costco for my eye exams, I feel that there really are benefits over some of the smaller outfits. The technology and equipment is newer and more advanced then the old 1-doctor shop I used to go to (that had crickets chirping and was never busy).</p>
+
+          <p>Besides that, I like Dr. Ambo as a physician. He takes his time, gives good information (more than I expected from an eye exam) and generally seems to be a nice guy.</p>
+
+          <p>I always feel like an eye exam is one that I can fail...but the anxiety of going is lessened with a good doctor."</p>
+
+          <p>-Jamie S</p>
+  
+        </div>
+      </div>
+    </div>
+-->
+
+
+
+
+
+    <!-- footer section -
+<footer>
+
+  <div class="container-fluid footer">
+
+    <div class="container"
+
+      <div class="row">
+
+
+
+              <div class="col-md-4">
+              
+                <h4>Hours of Operation</h4>
+                <ul class="hours"> 
+                  <li><span class="heavy">Monday:</span> 10:00a – 6:30p</li>
+                  <li><span class="heavy">Tuesday:</span>  10:00a – 6:30p</li>
+                  <li><span class="heavy">Wednesday:</span>  10:00a – 6:30p</li>
+                  <li><span class="heavy">Thursday:</span>  10:00a – 6:30p</li>
+                  <li><span class="heavy">Friday:</span>  10:00a – 6:30p</li>
+                  <li><span class="heavy">Saturday:</span>  9:30a – 4:30p</li>
+                </ul>
+
+              </div><!--col-
+
+                <div class="col-md-4">
+
+                <h4>Contact Us</h4>
+                <ul class="hours"> 
+                  <li>(425) 369-6726</li>
+                </ul>
+
+                  <p>
+                  Located in Costco<br>
+                  1801 Tenth Avenue NW<br>
+                  Issaquah, WA 98027
+                  </p>
+
+                </div>
+
+
+      
+              <div class="col-md-4">
+                  <h4>Connect with Us</h4>
+                 
+                  <ul class="social">
+                      <li><a href="https://www.facebook.com/DrAmboandAssoc" target='_blank'><img src="img/social-facebook.png"></a></li>
+                      <li><a href="https://www.linkedin.com/company/dr.-ambo-and-associates" target='_blank'><img src="img/social-linkedin.png"></a></li>                  
+                  </ul>
+
+
+                  <p class="push-top copyright">© Dr. Ambo & Associates, 2016.</p>
+
+              </div>
+              
+
+
+          </div><!--row-
+
+        </div>
+
+      </div> <!--container-
+
+
+
+  
+     </div>
+  </div>
+
+
+
+</footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+   <script src="../../dist/js/bootstrap.min.js"></script> 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
