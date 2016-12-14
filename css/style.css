@@ -324,7 +324,7 @@ body {
   padding-top: 50px;
 }
 .carousel-inner {
-  background: url("img/onboard-bg.jpg") green center center no-repeat;
+  background: url("../img/onboard-bg.jpg") green center center no-repeat;
   min-height: 900px;  
   width:100%;
 }
